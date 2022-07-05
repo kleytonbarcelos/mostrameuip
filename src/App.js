@@ -32,16 +32,10 @@ function App(){
           <div>{errors}</div>
           ) : (
           <>
-          <div>
-            <AdSense.Google
-              client='ca-pub-6290466418969499'
-              slot='4706454978'
-              style={{ display: 'block' }}
-              format='auto'
-              responsive='true'
-              layoutKey='-gw-1+2a-9x+5c'
-            />
-          </div>
+          {/* <AdSense.Google
+            client='ca-pub-6290466418969499'
+            slot='4706454978'
+          /> */}
           <div className='boxSuperior'>
             <h2>Seu IP é</h2>
             <h4>{ip.ip}</h4>
